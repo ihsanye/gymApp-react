@@ -1,8 +1,14 @@
+import Generator from "./components/Generator"
+import Hero from "./components/Hero"
+import Workout from "./components/Workout"
+
 function App() {
 
   return (
     <>
-      <p className="text-blue-700">ihsan</p>
+      <Hero />
+      <Generator />
+      <Workout />
     </>
   )
 }
